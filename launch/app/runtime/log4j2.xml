@@ -54,8 +54,12 @@
 		<!-- Uncomment this logger and update the name to enable debug logging for a binding -->
 		<!--
 		<Logger level="DEBUG" name="org.openhab.binding.YOURBINDINGNAME"/>
-		-->
-
+        <Logger level="TRACE" name="org.openhab.binding.nikohomecontrol"/>
+        <Logger level="DEBUG" name="org.openhab.core.config.discovery.addon"/>
+        <Logger level="DEBUG" name="org.openhab.core.config.discovery.sddp"/>
+        -->
+        <Logger level="DEBUG" name="org.openhab.persistence.jdbc"/>
+        
 		<!-- You can also override the variables of the loggers below to enable logging without -->
 		<!-- modifying this file. E.g. set 'logger.misc1.name' to 'org.openhab.binding.YOURBINDINGNAME' -->
 		<!-- in the launch configuration of app.bndrun . Similarly you can also override the -->
